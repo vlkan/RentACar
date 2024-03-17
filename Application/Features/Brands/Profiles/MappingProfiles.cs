@@ -9,7 +9,7 @@ public class MappingProfiles : Profile
     public MappingProfiles()
     {
         CreateMap<Brand, CreateBrandCommand>().ReverseMap();
-        CreateMap<Brand, CreatedBrandResponse>().ReverseMap();    
+        CreateMap<Brand, CreatedBrandResponse>().ReverseMap();
 
     }
 }
