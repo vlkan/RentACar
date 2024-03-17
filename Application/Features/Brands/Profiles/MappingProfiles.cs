@@ -10,6 +10,5 @@ public class MappingProfiles : Profile
     {
         CreateMap<Brand, CreateBrandCommand>().ReverseMap();
         CreateMap<Brand, CreatedBrandResponse>().ReverseMap();
-
     }
 }
