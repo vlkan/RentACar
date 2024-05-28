@@ -13,7 +13,7 @@ public class Car : Entity<Guid>
     public CarState CarState { get; set; }
     public string Name { get; set; }
 
-    public virtual Model? Models { get; set; }
+    public virtual Model? Model { get; set; }
 
     public Car()
     {
