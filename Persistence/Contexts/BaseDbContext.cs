@@ -17,7 +17,7 @@ public class BaseDbContext : DbContext
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
     {
         Configuration = configuration;
-        Database.EnsureCreatedAsync();
+        //Database.EnsureCreatedAsync();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
